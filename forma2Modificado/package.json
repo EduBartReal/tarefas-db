@@ -1,0 +1,16 @@
+{
+  "name": "api-tarefas",
+  "version": "1.0.0",
+  "description": "API de gerenciamento de tarefas",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "pg": "^8.23.1"
+  }
+}
